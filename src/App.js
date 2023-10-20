@@ -1,10 +1,15 @@
 import './App.css';
-// testing git commit test
+import Navbar from './Navbar';
+import Home from './Home';
+
 function App() {
-  return (
+  
+  return (  
     <div className="App">
+      <Navbar/>
       <div className="content">
-        <h1>App Components</h1>
+        <Home />
+      
       </div>
     </div>
   );
