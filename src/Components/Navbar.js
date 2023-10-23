@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import { MenuItems } from './MenuItems';
 import './NavbarStyles.css';
 
 class Navbar extends Component{
@@ -6,13 +7,18 @@ class Navbar extends Component{
         return(
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">Lerancy</h1>
+
                 <ul className="nav-menu">
-                    <li>
-                        
-                    </li>
+                    {MenuItems.map((item, index) =>{
+                        return(
+                          <li key = {index}>
+                               <a href = {item.url}>{item.title}</a>
+                          </li>
+                        );
+                    })}
                 </ul>
             </nav>
-        );
+        );  
     }
 }
 
