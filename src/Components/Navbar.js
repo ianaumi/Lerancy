@@ -12,10 +12,11 @@ class Navbar extends Component{
                     {MenuItems.map((item, index) =>{
                         return(
                           <li key = {index}>
-                               <a href = {item.url}>{item.title}</a>
+                               <a className ={item.cName} href = {item.url}>{item.title}</a>
                           </li>
                         );
                     })}
+                    <button>Sign Up</button>
                 </ul>
             </nav>
         );  
