@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 
 // Kickstarts the app 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  // react does additional check during development 
-  <React.StrictMode> 
+  <BrowserRouter> 
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
+  
 );
 
 // testing vscode commit test
