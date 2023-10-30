@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-// Kickstarts the app 
+import './index.css';
+import { BrowserRouter } from 'react-router-dom';
 
+// Kickstarts the app 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // react does additional check during development 
-  <React.StrictMode> 
+
+  <BrowserRouter> 
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
+  
 );
 
-// testing
+// testing vscode commit test
 // test commit
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
