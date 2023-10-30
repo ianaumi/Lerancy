@@ -1,7 +1,15 @@
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import HeroImg from "../Assets/hero.png"
+
 function About(){
     return(
         <>
-        <h1>This is About</h1>
+        <Navbar/>
+        <Hero
+        heroName="hero-mid"
+        heroImage={HeroImg}
+        />
         </>
     )
 }

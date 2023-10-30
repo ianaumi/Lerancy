@@ -1,15 +1,14 @@
 import './HeroStyles.css';
 
-function Hero(){
-    return(
-        <>
-        <div className="hero">
-            <img alt="HeroImg" src='https://wallpapers.com/images/featured/reading-book-gqr32547jwegknzo.jpg'/>
+function Hero(props){
+    return(<>
+        <div className={props.heroName}>
+            <img alt="HeroImg" src={props.heroImage}/>
         </div>
 
         <div className="hero-text">
-            <h1>Lerancy</h1>
-            <p>Explore the web with confidence</p>
+            <h1>{props.title}</h1>
+            <p>{props.text}</p>
         </div>
         </>
     )
