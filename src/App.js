@@ -15,8 +15,7 @@ function App() {
           <Route path="/about"element={<About/>}/>
           <Route path="/resources"element={<Resources/>}/>
         </Routes>
-
-        <Navbar/>
+        
     </div>
   );
 }
