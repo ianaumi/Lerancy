@@ -1,7 +1,17 @@
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import HeroImg from "../Assets/HeroImahe.png"
+
+
 function Resources(){
     return(
         <>
-        <h1>This is Resources</h1>
+        <Navbar />
+        <Hero 
+        heroName="hero"
+        heroImage={HeroImg}
+        title="Resources"
+        />
         </>
     )
 }

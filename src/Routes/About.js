@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
-import HeroImg from "../Assets/hero.png"
+import HeroImg from "../Assets/HeroImahe.png"
 
 function About(){
     return(
@@ -9,6 +9,7 @@ function About(){
         <Hero
         heroName="hero-mid"
         heroImage={HeroImg}
+        title="About"
         />
         </>
     )
