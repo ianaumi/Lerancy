@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import HeroImg from "../Assets/hero.png"
 import Introduction from "../Components/Introduction";
 import Resources from "../Components/Resources";
+import Footer from "../Components/Footer";
 
 function Home(){
     return(
@@ -16,6 +17,7 @@ function Home(){
         />
         <Introduction/>
         <Resources/>
+        <Footer/>
         </>
     )
 }

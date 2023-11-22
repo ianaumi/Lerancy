@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import HeroImg from "../Assets/hero.png"
-
+import Footer from "../Components/Footer";
 
 function Resources(){
     return(
@@ -12,6 +12,7 @@ function Resources(){
         heroImage={HeroImg}
         title="Resources"
         />
+        <Footer/>
         </>
     )
 }
