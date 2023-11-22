@@ -14,6 +14,7 @@ const Introduction = () => {
                     Suspendisse sodales metus eget sapien auctor ultricies. Mauris tristique dolor ut molestie ullamcorper.
                 </p>
             </div>
+            <hr></hr>
         </div>
     )
 }

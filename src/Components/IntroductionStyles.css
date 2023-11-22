@@ -3,7 +3,7 @@
 }
 
 .intro{
-    width: 50%;
+    width: 100%;
     text-align: left;
 }
 
@@ -12,16 +12,17 @@
     margin-bottom: 10px;
 }
 
-.line{
+hr{
     margin-top: 5rem;
 }
 
-
-
-
 @media  screen and (max-width:  850px) {
-    .first-description{
+    .main{
         margin: 4rem 2rem;
+    }
+
+    .intro{
+
     }
 }
 
