@@ -9,9 +9,10 @@ function About(){
         <Hero
         heroName="hero-mid"
         heroImage={HeroImg}
+        title="About"
         />
         </>
-    )
+    ) 
 }
 
 export default About;
