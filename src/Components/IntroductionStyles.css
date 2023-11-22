@@ -1,0 +1,27 @@
+.main{
+    margin: 4rem 20rem;
+}
+
+.intro{
+    width: 50%;
+    text-align: left;
+}
+
+.intro h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.line{
+    margin-top: 5rem;
+}
+
+
+
+
+@media  screen and (max-width:  850px) {
+    .first-description{
+        margin: 4rem 2rem;
+    }
+}
+

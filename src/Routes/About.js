@@ -12,7 +12,7 @@ function About(){
         title="About"
         />
         </>
-    )
+    ) 
 }
 
 export default About;
