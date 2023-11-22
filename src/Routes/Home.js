@@ -2,6 +2,7 @@ import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
 import HeroImg from "../Assets/hero.png"
 import Introduction from "../Components/Introduction";
+import Resources from "../Components/Resources";
 
 function Home(){
     return(
@@ -14,6 +15,7 @@ function Home(){
         text="Explore the web with confidence"
         />
         <Introduction/>
+        <Resources/>
         </>
     )
 }
