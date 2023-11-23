@@ -1,0 +1,39 @@
+
+.article {
+    padding: 4rem 40rem;
+    text-align: start;
+    color: #212121;
+}
+
+.article h1{
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+
+.article p{
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    line-height: 1.8;
+}
+
+.article h5{
+    padding-top: 2rem;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+h5{
+    padding-bottom: 2rem;
+}
+
+.icon{
+    font-size: 2rem;
+    color: #7f888f;
+}
