@@ -1,11 +1,12 @@
 .main{
-    margin: 4rem 6rem;
+    margin: 4rem 20rem;
     color: #2a2a2a;
 
 }
 
 .main h2{
     font-size: 2rem;
+    text-align: start;
 }
 
 .resourcescard{
