@@ -1,0 +1,38 @@
+.promoting-container{
+    margin: 4rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.text-box{
+    width: 40%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.text-box h2{
+    padding-bottom: 1rem;
+}
+
+iframe{
+    position: relative;
+    width: 50%;
+}
+
+@media screen and (max-width:850px) {
+    .promoting-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-box{
+        width: 100%;
+        text-align: start;
+        font-size: 1.1rem;
+        padding-bottom: 2rem;
+    }
+}
+

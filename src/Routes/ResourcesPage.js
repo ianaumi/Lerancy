@@ -1,9 +1,13 @@
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import HeroImg from "../Assets/hero.png"
+import Footer from "../Components/Footer";
+import Resources from "../Components/Resources";
 
 
-function Resources(){
+
+
+function ResourcesPage(){
     return(
         <>
         <Navbar />
@@ -12,8 +16,12 @@ function Resources(){
         heroImage={HeroImg}
         title="Resources"
         />
+        <Resources/>
+
+        
+        <Footer/>
         </>
     )
 }
 
-export default Resources;
+export default ResourcesPage;

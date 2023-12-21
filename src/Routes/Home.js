@@ -3,6 +3,8 @@ import Navbar from "../Components/Navbar";
 import HeroImg from "../Assets/hero.png"
 import Introduction from "../Components/Introduction";
 import Resources from "../Components/Resources";
+import Promoting from "../Components/Promoting";
+import Footer from "../Components/Footer";
 
 function Home(){
     return(
@@ -16,6 +18,8 @@ function Home(){
         />
         <Introduction/>
         <Resources/>
+        <Promoting/>
+        <Footer/>
         </>
     )
 }

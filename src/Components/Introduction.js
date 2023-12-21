@@ -4,14 +4,10 @@ import './IntroductionStyles.css';
 
 const Introduction = () => {
     return(
-        <div className="main">
+        <div className="intro-container">
             <div className="intro">
-                <h2>Digital Literacy</h2>
                 <p>
-                    Lerancy aims to provide materials in learning Digital Literacy
-                    consectetur adipiscing elit. Pellentesque sapien nisl, consequat nec porttitor eu, posuere at orci. 
-                    Vivamus id vestibulum orci. Proin sit amet lorem dignissim, fermentum est quis, euismod tellus. 
-                    Suspendisse sodales metus eget sapien auctor ultricies. Mauris tristique dolor ut molestie ullamcorper.
+                LERANCY is committed to advancing digital literacy for all, aiming to empower individuals with the ability to think critically and make informed choices online. The organization is dedicated to strengthening the skills of policymakers, educators, media professionals, youth organizations, and marginalized communities in this domain. LERANCY actively supports Member States in the development of national policies and strategies for digital literacy.
                 </p>
             </div>
             <hr></hr>
